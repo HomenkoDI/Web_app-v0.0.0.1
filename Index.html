@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Головна сторінка</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <button id="home-button">Головна</button>
+    </div>
+	<h1>Ласкаво просимо на каталог посилань BETA: V0.0.0.1</h1>
+    <div class="header-right">
+      <button id="register-button">Реєстрація</button>
+      <button id="login-button">Авторизація</button>
+	  <span id="greatings"></span> 
+	  <button id="exit-button">Вихід</button>   
+    </div>
+  </header>
+  
+  <main>
+    
+	<p class="simleText">На даному сайті представлено катлог посилань з коротким описом, що міститься на даній сторінці
+	<br>Даний застосунок підтягує файли з локального серверу, створеного на основі <a href ="https://nodejs.org">Node.js</a>, 
+	сервер читає файли з локальної бази даних db.json. Туди він і записує дані реєстрованих користувачів, і звідти їх "витягує" через XML-запити.</p>
+  
+	<h2 id="non-autorised"></h2>
+    <article>
+		<h3 class = "titles"></h3>
+		<p id="article_1" class="catalog">
+		<!-- Тут буде виводитися каталог посилань --> 
+		</p>
+		<a id = "link_1" class = "links"></a>
+		<h3 class = "titles"></h3>
+		<p id="article_2" class="catalog">
+		<!-- Тут буде виводитися каталог посилань --> 
+		</p>
+		<a id = "link_2" class = "links"></a>
+		<h3 class = "titles"></h3>
+		<p id="article_3" class="catalog">
+		<!-- Тут буде виводитися каталог посилань --> 
+		</p>
+		<a id = "link_3" class = "links"></a>
+	</article>
+  </main>
+  
+  <footer>
+    <p>Контактна інформація: homenko.danylo@vu.cdu.edu.ua</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

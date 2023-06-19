@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #55cc55;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  margin-right: auto;
+  
+}
+
+.header-right{
+  color: white;
+  margin-right: 10px;
+}
+
+article{
+	background-color: #e1e8e2;
+	padding: 1%;
+	border-radius: 2%;
+}
+
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover{
+  background-color: #39853C;
+}
+
+a:hover{
+  color: green;
+}
+
+.titles{
+  
+}
+
+.catalog{
+  background-color: #bdc9be;
+  padding: 1%;
+}
+.simleText {
+  font-size:18px;
+}
+
+main {
+  margin: 20px;
+}
+
+#exit-button{
+  display: none;
+}
+
+h1 {
+  display: flex;
+  margin-right: auto;
+}
+
+h2 {
+  margin-right: 10px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+
+footer {
+  background-color: #55cc55;
+  padding: 10px;
+  text-align: center;
+}
+.container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 5px;
+    }
+	
